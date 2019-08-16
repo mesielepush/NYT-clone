@@ -9,7 +9,6 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3px;
     border-bottom: 1px solid #dbdbdb;
 }
 
@@ -49,4 +48,21 @@ a {
     text-transform: uppercase;
     background-color: #6288a5;
 }
-/**/
+
+/* beginning of the article */
+
+main  {
+    margin-top: 10vh;
+    border: 2px solid red;
+}
+
+main article {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-10%)
+}
+
+main .article-title {
+    font-family: 'Courgette', sans-serif !important;
+    font-size: 2.5em;
+}
