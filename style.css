@@ -8,14 +8,16 @@ body {
 nav {
     display:flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 10px;
-    border: 2px solid red;
+    border-bottom: 1px solid #dbdbdb;
+    
 }
 a {text-decoration: none;}
 .first {
     display: flex;
-    
 }
+
 #cosmos {
     margin-top: 3px;
     font-weight: bold;
@@ -23,14 +25,23 @@ a {text-decoration: none;}
 }
 
 .first a {
+    margin-left: 5vh;
+    margin-right: 8vh;
     
-    margin-right: 2vh;
-    border: 2px solid red;
 }
 
-.head_rigth {
+.head_right ul {
     display: flex;
-    flex-direction: row
-
-    justify-content: right;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.head_right li {
+    margin-top: 2vh;
+    margin-right: 10vh;
+}
+.head_right button {
+    font-size: 0.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #6288a5;
 }
