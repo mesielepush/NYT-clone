@@ -53,7 +53,6 @@ a {
 
 main  {
     margin-top: 10vh;
-    border: 2px solid red;
 }
 
 main article {
@@ -66,3 +65,23 @@ main .article-title {
     font-family: 'Courgette', sans-serif !important;
     font-size: 2.5em;
 }
+
+.main_article_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50vh;
+ }
+ .footer_image {
+    margin-left: 15vh;
+    margin-right: 18vh;
+ }
+ .author {
+    margin-left: 1vh;
+ }
