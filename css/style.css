@@ -109,3 +109,35 @@ main article {
     font-size: 0.8em;
     margin-right: auto;
 }
+
+ul {
+    list-style: none;
+}
+.social-networks {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+.social-networks li {
+    margin-right: 10px;
+    
+}
+
+.social-networks li i {
+    margin-top: 3vh;
+    color: black;
+    font-size: 1.3em;
+    background: #dedede;
+    padding:5px;
+    border-radius: 50%;
+}
+article {
+    display: flex;
+
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
