@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif !important;
+    font-weight: 400;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.first {
+    display: flex;
+}
+
+#cosmos {
+    margin-top: 3px;
+    font-weight: bold;
+    color: black
+}
+
+.first a {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.head_right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.head_right li {
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+
+.head_right button {
+    font-size: 0.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #6288a5;
+}
+
+/* beginning of the article */
+
+main  {
+    margin-top: 10vh;
+    border: 2px solid red;
+}
+
+main article {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-10%)
+}
+
+main .article-title {
+    font-family: 'Courgette', sans-serif !important;
+    font-size: 2.5em;
+}
+
+.main_article_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50vh;
+}
+.footer_image {
+    margin-left: 15vh;
+    margin-right: 18vh;
+}
+.author {
+    margin-left: 1vh;
+}

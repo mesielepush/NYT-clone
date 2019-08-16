@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto:500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js.js"></script>
     <title>New York Times</title>
 </head>
 <body>
@@ -31,11 +33,17 @@
         </div> 
     </nav>
     <!-- end of the navbar -->
-
+    
+    
     <!-- begin of the article -->
     <main>
         <article>
-            <h2 class="article-title">Space Ripples Reveal <br> Big Bang’s Smoking Gun</h2>
+            <div w3-include-html="article.html">
+                <script>
+                    includeHTML();
+                </script>
+            </div>
+            
         </article>
     </main>
 </body>
