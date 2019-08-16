@@ -11,9 +11,12 @@ nav {
     align-items: center;
     margin-top: 10px;
     border-bottom: 1px solid #dbdbdb;
-    
 }
-a {text-decoration: none;}
+
+a { 
+    text-decoration: none;
+}
+
 .first {
     display: flex;
 }
@@ -27,7 +30,6 @@ a {text-decoration: none;}
 .first a {
     margin-left: 5vh;
     margin-right: 8vh;
-    
 }
 
 .head_right ul {
@@ -35,10 +37,12 @@ a {text-decoration: none;}
     justify-content: space-between;
     list-style-type: none;
 }
+
 .head_right li {
     margin-top: 2vh;
     margin-right: 10vh;
 }
+
 .head_right button {
     font-size: 0.7em;
     font-weight: 500;
