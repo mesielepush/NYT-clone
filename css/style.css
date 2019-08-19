@@ -5,6 +5,10 @@ body {
     font-weight: 400;
 }
 
+.cursive {
+    font-family: 'Courgette', sans-serif;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -14,9 +18,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
+    background-color: white;
 }
 
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 .first {
     display: flex;
@@ -53,114 +62,13 @@ nav {
 
 /* beginning of the article */
 
-main  {
-    margin-top: 10vh;
+.article_container {
+    margin-top: 15vh;
+    text-align: center;
 }
 
-main article {
-    display: flex;
-    justify-content: center;
-    
-}
-
-article {
-    margin-top: 5vh
-}
-a { 
-    
-    text-decoration: none;
-    color:black;
-}
-a:hover {
-    
-    color:black
-}
-aside {
-    font-size: 0.8em;
-}
-
-#author_name {
-    font-size: 0.7em;
-    color: grey;
-}
-.article-title {
-    font-family: 'Courgette', sans-serif !important;
+.article_container h2 {
     font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
-
-.main_article_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red;
-    right: 100%;
-    left: 100%
-   
- }
-
- .image {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-    font-size: smaller;
-}
-figcaption {
-    text-align: left;
-    
-}
-  
-
-ul {
-    list-style: none;
-   
-}
-.social-networks {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    
-    
-}
-.social-networks li {
-    margin-right: 10px;
-    
-}
-
-.social-networks li i {
-    margin-top: 2vh;
-    color: black;
-    font-size: 1.3em;
-    background: #dedede;
-    padding:5px;
-    border-radius: 50%;
-}
-article {
-    display: flex;
-}
-
-.main_article {
-    display: flex;
-    border : 2px solid red;
-    padding-right: 20vh 
-}
-
-
-aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.social_date {
-    border: 2px solid blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    
-
-}
-.img-fluid {
-   
+    margin-bottom: 5vh;
+    text-align: center;
 }
