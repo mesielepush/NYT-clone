@@ -16,9 +16,7 @@ nav {
     border-bottom: 1px solid #dbdbdb;
 }
 
-a { 
-    text-decoration: none;
-}
+
 
 .first {
     display: flex;
@@ -62,9 +60,29 @@ main  {
 main article {
     display: flex;
     justify-content: center;
-    transform: translateX(-10%)
+    
 }
 
+article {
+    margin-top: 5vh
+}
+a { 
+    
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    
+    color:black
+}
+aside {
+    font-size: 0.8em;
+}
+
+#author_name {
+    font-size: 0.7em;
+    color: grey;
+}
 .article-title {
     font-family: 'Courgette', sans-serif !important;
     font-size: 2.5em;
@@ -76,47 +94,34 @@ main article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid red;
+    right: 100%;
+    left: 100%
+   
  }
+
  .image {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 50vh;
- }
-
- .image img {
-    height: auto;
-    max-width: 100%; 
- }
-
- .footer_image {
-    margin-left: 15vh;
-    margin-right: 18vh;
- }
- .author {
-    margin-left: 1vh;
- }
-
-
- .image p {
-     font-size: 1em;
-     font-family: serif !important;
-     color: rgb(51, 51, 51);; 
-     margin: 0;
- }
-
-.image p:last-child {
-    font-size: 0.8em;
-    margin-right: auto;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: smaller;
 }
+figcaption {
+    text-align: left;
+    
+}
+  
 
 ul {
     list-style: none;
+   
 }
 .social-networks {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    
     
 }
 .social-networks li {
@@ -125,7 +130,7 @@ ul {
 }
 
 .social-networks li i {
-    margin-top: 3vh;
+    margin-top: 2vh;
     color: black;
     font-size: 1.3em;
     background: #dedede;
@@ -134,10 +139,28 @@ ul {
 }
 article {
     display: flex;
-
 }
+
+.main_article {
+    display: flex;
+    border : 2px solid red;
+    padding-right: 20vh 
+}
+
+
 aside {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+.social_date {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
+    
+
+}
+.img-fluid {
+   
 }
