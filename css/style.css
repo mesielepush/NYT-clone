@@ -63,12 +63,83 @@ nav {
 /* beginning of the article */
 
 .article_container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
     margin-top: 15vh;
     text-align: center;
+    background: no-repeat url("assets/1.jpg") 100% / 100%;
+    
 }
-
+.article_container img{
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 1;  /* make it transparent */
+}
 .article_container h2 {
     font-size: 2.5em;
     margin-bottom: 5vh;
     text-align: center;
+}
+.messy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figcaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    font-size: 0.7em;
+}
+figure span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    font-size:0.6em;
+    color: grey;
+    
+}
+/* MAIN ARTICLE */
+
+.sub_container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.author_name {
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 0.6em;
+    border: 2px solid red
+}
+.date_socialmedia {
+    
+    font-size: 0.6em
+}
+
+.author_name a {
+    color:black
+}
+.list {
+    
+    border: 2px solid red;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
 }
