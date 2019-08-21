@@ -261,19 +261,37 @@ figure span {
 .OPINION {
     flex:1;
 }
+
 .ARTS {
     flex:1;
 }
+
 .LIVING {
     flex:1;
 }
+
 .MORE {
     flex:1;
 }
+
 .SUBSCRIBE {
     flex:1;
-    border-left: 1px solid grey
+    border-left: 1px solid #e3e3e3;
 }
+
 .footer_container li {
     font-size: 0.8em;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.age {
+    font-size: 0.8em;
+}
+
+.big {
+   font-weight: bold;
 }
