@@ -235,3 +235,45 @@ figure span {
     border-top: 1px solid black;
     padding-top: 4vh;
 }
+.top_footer {
+    display: flex;
+    border-top: 4px double grey;
+
+}
+.first{
+    flex:1
+
+}
+.second {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: right;
+    flex:2;
+}
+.footer_container {
+    display: flex;
+    padding-top: 8vh;
+}
+.NEWS {
+    flex:1;
+}
+
+.OPINION {
+    flex:1;
+}
+.ARTS {
+    flex:1;
+}
+.LIVING {
+    flex:1;
+}
+.MORE {
+    flex:1;
+}
+.SUBSCRIBE {
+    flex:1;
+    border-left: 1px solid grey
+}
+.footer_container li {
+    font-size: 0.8em;
+}
