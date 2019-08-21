@@ -152,26 +152,49 @@ figure span {
 .main_text p {
     font-size: 0.9em;
 }
+
 .almost_footer {
-    
     display: flex;
-    justify-content: center    
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom:  1px solid black;
+    padding-top: 1.5vh;
+    padding-bottom: 10vh;
+    margin-bottom: 6vh;
+}
+
+.almost_footer button {
+    background-color: #6288a5;
+    color: white;
 }
 
 .almost_footer1 {
-    border-top: 1px solid black;
+    padding-top: 5vh;
+    margin-right: 5vh;
 }
+
+.almost_footer1 h6 {
+    font-weight: bold;
+}
+
+.almost_footer1 p {
+    font-size: 1em;
+    color: rgb(102, 102, 102);
+    font-weight: thin;
+}
+
 .almost_footer2 {
-    border-top: 1px solid black;
     display: flex;
-    
+    padding-top: 5vh;
 }
+
 #email_butt {
     background-color: #6288a5;
     margin-left: 0px;
     border-left: 0px;
     border-radius: 0px;
 }
+
 .email_form {
     
     width: 100%;
