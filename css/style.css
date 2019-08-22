@@ -88,7 +88,7 @@ nav {
 .main_div {
     clear: both;
     width: 90%;
-    margin-left: 10vh;
+    margin-left: 15vh;
     display: block;
     /*border: 2px solid red;*/
 }
@@ -101,7 +101,7 @@ h2 {
 }
 
 .article_body {
-    max-width: 1020px;
+    max-width: 90vh;
     display: block;
     margin: 0 auto;
 }
@@ -109,9 +109,9 @@ h2 {
 .main_article {
     display: block;
     position: relative;
-    left: 10%;
-    right: 10%;
-    margin-left: 20vh;
+    left: -5%;
+    margin-left: 30vh;
+    margin-right: 20vh;
     display: inline-block;
 }
 
@@ -127,9 +127,14 @@ h2 {
     position: relative;
     bottom:10vh
 }
-.main_text p{ 
-    text-align: justify
-
+.media_links a{
+    border-radius: 4px;
+    padding:4px
+}
+.main_text p{
+    
+    text-align: justify;
+    font-size: 0.9em;
 }
 .main_article:after {
     clear: both;
@@ -192,9 +197,7 @@ h2 {
 .list li:not(:last-child) {
     margin-right: 1vh;
 }
-.main_text p {
-    font-size: 0.9em;
-}
+
 
 
 
