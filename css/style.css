@@ -28,7 +28,7 @@ nav {
     margin:0;
     margin-bottom: 400px;
     width: 100%;
-    
+    z-index: 999;
     font-size: 1.5em;
     background-color: white;
     padding-bottom: 4px;
@@ -100,12 +100,21 @@ h2 {
     text-align: center
 }
 
+.article_body {
+    max-width: 1020px;
+    display: block;
+    margin: 0 auto;
+}
 
 .main_article {
-    width: 70%;
+    display: block;
+    position: relative;
+    left: 10%;
+    right: 10%;
     margin-left: 20vh;
-        display: inline-block;
+    display: inline-block;
 }
+
 .media {
     display: flex;
 }
@@ -130,9 +139,20 @@ h2 {
 
 
 .container_footer {
-    margin-left: 10vh;
-    margin-top: 10vh
+   width: 100%;
+   display: block;
+   position: relative;
+   right: 10%;
+   left: 10%;
 }
+
+.almost_footer {
+    display: block;
+    position: relative;
+    right: 10%;
+    left: 10%;
+}
+
 .almost_footer1 {
     margin-left: 10vh;
 }
@@ -272,10 +292,21 @@ h2 {
     align-items: right;
     flex:2;
 }
+
+/* footer */
+
 .footer_container {
-    display: flex;
-    padding-top: 8vh;
+    display: block;
+    position: relative;
+    left: 10%;
+    right: 10%;
 }
+
+.footer_container ul{
+    float: left;
+    margin-top: 5vh;
+}
+
 .NEWS {
     flex:1;
 }
