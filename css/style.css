@@ -20,9 +20,25 @@ ul {
     font-weight: bold;
 }
 
-a, a:visited, a:hover {
-   color: black; 
+a {
+   color: black;
+   text-decoration: none;
 }
+
+a:visited {
+    color: black; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: black; 
+    text-decoration: none;
+}
+
+p {
+    font-family: serif;
+}
+
 nav {
     position: fixed !important;
     margin:0;
@@ -34,39 +50,45 @@ nav {
     padding-bottom: 4px;
     border-bottom: 1px solid black;
 }
+
 .nav_icons div{
-    
     display: inline-block;
 }
+
 .nav_icons::after {
     clear: both;
 }
+
 .nav_search_icon {
     position: relative;
     left: 1vh;
 }
+
 .cosmos {
     font-size: 0.8em;
     position: relative;
     left: 2vh;
     bottom: 4px;
-    
 }
-.logo {
-    z-index: 10000;
+
+.logo img {
+    z-index: 999;
     position:relative;
-    left: 35%;
-    top: 1vh
+    left: 150%;
+    top: 1vh;
+    height: 25;
 }
 
 .sub_button {
     float:right;
     margin:0;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     list-style-type: none;
 }
+
+.sub_button li{
+    float: left;
+}
+
 .button {
     margin:0;
     padding: 8px;
@@ -77,12 +99,10 @@ nav {
     color:white;
     text-transform: uppercase;
     background-color: #6288a5;
-    
-    
 }
 
 #b_one {
-    margin-right: 2vh
+    margin-right: 2vh;
 }
 
 .main_div {
@@ -90,9 +110,7 @@ nav {
     width: 90%;
     margin-left: 15vh;
     display: block;
-    /*border: 2px solid red;*/
 }
-
 
 h2 {
     font-family: 'Courgette', sans-serif !important;
@@ -115,9 +133,6 @@ h2 {
     display: inline-block;
 }
 
-.media {
-    display: flex;
-}
 .list li{
     display: inline-block;
 }
@@ -127,23 +142,24 @@ h2 {
     position: relative;
     bottom:10vh
 }
+
 .media_links a{
     border-radius: 4px;
     padding:4px
 }
+
 .main_text p{
-    
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 1.2em;
+    width: 580px;
 }
+
 .main_article:after {
     clear: both;
 }
 
-/* END OF MY FLOAT IMPLEMENTATION */
-
-
 .container_footer {
+   clear: both;
    width: 100%;
    display: block;
    position: relative;
@@ -164,28 +180,10 @@ h2 {
 .sub-container {
     display: block;
     width: 450px;
-    
-}
-
-.author_name {
-    display: flex;
-    width: 80%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    font-size: 0.8em;
-}
-
-.date_socialmedia {
-    display: flex;
-    font-size: 0.8em;
-    justify-content: space-between;
 }
 
 .list {
     list-style-type: none;
-    display: flex;
 }
 
 .list li {
@@ -198,18 +196,13 @@ h2 {
     margin-right: 1vh;
 }
 
-
-
-
 .almost_footer {
-    
-    display: flex;
-    justify-content: center;
     border-top: 1px solid black;
     border-bottom:  1px solid black;
     padding-top: 1.5vh;
     padding-bottom: 10vh;
     margin-bottom: 6vh;
+    float: left;
 }
 
 .almost_footer button {
@@ -218,8 +211,8 @@ h2 {
 }
 
 .almost_footer1 {
-    padding-top: 5vh;
-    margin-right: 5vh;
+    float: left;
+    width: 45%; 
 }
 
 .almost_footer1 h6 {
@@ -233,8 +226,9 @@ h2 {
 }
 
 .almost_footer2 {
-    display: flex;
+    float: right;
     padding-top: 5vh;
+    width: 45%;
 }
 
 #email_butt {
@@ -248,12 +242,6 @@ h2 {
     z-index: 1;
     width: 100%;
     height: auto;
-}
-.email_form1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-    align-items: flex-start;
 }
 
 .footer ul li {
@@ -280,25 +268,15 @@ h2 {
     border-top: 1px solid black;
     padding-top: 4vh;
 }
+
 .top_footer {
-    display: flex;
     border-top: 4px double grey;
-
-}
-.first{
-    flex:1
-
-}
-.second {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: right;
-    flex:2;
 }
 
 /* footer */
 
 .footer_container {
+    margin-top: 5vh;
     display: block;
     position: relative;
     left: 10%;
@@ -308,35 +286,26 @@ h2 {
 .footer_container ul{
     float: left;
     margin-top: 5vh;
+    margin-right: 5vh;
 }
 
-.NEWS {
-    flex:1;
-}
-
-.OPINION {
-    flex:1;
-}
-
-.ARTS {
-    flex:1;
-}
-
-.LIVING {
-    flex:1;
-}
-
-.MORE {
-    flex:1;
-}
-
-.SUBSCRIBE {
-    flex:1;
-    border-left: 1px solid #e3e3e3;
+.footer_container ul:not(:last-child){
+    margin-right: 5vh;
 }
 
 .footer_container li {
     font-size: 0.8em;
+    margin-top: 1vh;
+}
+
+.footer_container .second {
+    float: right;
+    font-size: 0.7em;
+    color: rgb(98, 136, 165);
+}
+
+.footer_container .second a {
+    color: rgb(98, 136, 165);
 }
 
 .title {
@@ -350,4 +319,63 @@ h2 {
 
 .big {
    font-weight: bold;
+}
+
+/* theory of inflation */
+
+.theory-of-inflation  {
+    width: 100%;
+}
+
+.theory-of-inflation ul {
+    width: 100%;
+}
+
+.theory-of-inflation p {
+    font-family: sans-serif !important;
+    font-size: 0.8em;
+}
+
+.theory-of-inflation span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.article-continue {
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+}
+
+.article-continue p {
+    font-family: serif !important;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.article-continue h5 {
+    font-size: 0.7em;
+}
+
+.article-continue button {
+    padding-right: 10vh;
+    padding-left: 10vh;
+    font-size: 0.8em;
+    border: #175aa6 1px solid;
+    margin-bottom: 5vh;
+}
+
+aside {
+    font-family: serif;
+}
+
+aside ul li {
+    border-top: 1px solid #b0b0b0;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-weight: bold;
+}
+
+.container_footer h6 {
+    font-family: serif;
 }
