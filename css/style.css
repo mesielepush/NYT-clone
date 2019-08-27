@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Roboto:500&display=swap');
+
 body {
     margin:0;
     width: 80%;
@@ -286,7 +288,7 @@ h2 {
 .footer_container ul{
     float: left;
     margin-top: 5vh;
-    margin-right: 5vh;
+    margin-right: 3vh;
 }
 
 .footer_container ul:not(:last-child){
