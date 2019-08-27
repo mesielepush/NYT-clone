@@ -1,163 +1,164 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Roboto:500&display=swap');
 
 body {
-    margin:0;
-    width: 80%;
-    font-family: "Roboto", !important;
-    background-color: white 
+  margin: 0;
+  width: 80%;
+  font-family: "Roboto", sans-serif !important;
+  background-color:white;
 }
+
 a:link {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .cursive {
-    font-family: 'Courgette', sans-serif;
+  font-family: 'Courgette', sans-serif;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 a {
-   color: black;
-   text-decoration: none;
+  color:black;
+  text-decoration: none;
 }
 
 a:visited {
-    color: black; 
-    text-decoration: none;
+  color:black; 
+  text-decoration: none;
 }
 
 a:hover {
-    color: black; 
-    text-decoration: none;
+  color:black; 
+  text-decoration: none;
 }
 
 p {
-    font-family: serif;
+  font-family: serif;
 }
 
 nav {
-    position: fixed !important;
-    margin:0;
-    margin-bottom: 400px;
-    width: 100%;
-    z-index: 999;
-    font-size: 1.5em;
-    background-color: white;
-    padding-bottom: 4px;
-    border-bottom: 1px solid black;
+  position: fixed !important;
+  margin: 0;
+  margin-bottom: 400px;
+  width: 100%;
+  z-index: 999;
+  font-size: 1.5em;
+  background-color: white;
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
 }
 
-.nav_icons div{
-    display: inline-block;
+.nav_icons div {
+  display: inline-block;
 }
 
 .nav_icons::after {
-    clear: both;
+  clear: both;
 }
 
 .nav_search_icon {
-    position: relative;
-    left: 1vh;
+  position: relative;
+  left: 1vh;
 }
 
 .cosmos {
-    font-size: 0.8em;
-    position: relative;
-    left: 2vh;
-    bottom: 4px;
+  font-size: 0.8em;
+  position: relative;
+  left: 2vh;
+  bottom: 4px;
 }
 
 .logo img {
-    z-index: 999;
-    position:relative;
-    left: 150%;
-    top: 1vh;
-    height: 25;
+  z-index: 999;
+  position: relative;
+  left: 150%;
+  top: 1vh;
+  height: 25;
 }
 
 .sub_button {
-    float:right;
-    margin:0;
-    list-style-type: none;
+  float: right;
+  margin: 0;
+  list-style-type: none;
 }
 
-.sub_button li{
-    float: left;
+.sub_button li {
+  float: left;
 }
 
 .button {
-    margin:0;
-    padding: 8px;
-    justify-content: space-between;
-    border-radius: 7px;
-    font-size: 0.4em;
-    font-weight: 500;
-    color:white;
-    text-transform: uppercase;
-    background-color: #6288a5;
+  margin: 0;
+  padding: 8px;
+  justify-content: space-between;
+  border-radius: 7px;
+  font-size: 0.4em;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  background-color: #6288a5;
 }
 
 #b_one {
-    margin-right: 2vh;
+  margin-right: 2vh;
 }
 
 .main_div {
-    clear: both;
-    width: 90%;
-    margin-left: 15vh;
-    display: block;
+  clear: both;
+  width: 90%;
+  margin-left: 15vh;
+  display: block;
 }
 
 h2 {
-    font-family: 'Courgette', sans-serif !important;
-    font-size: 1.9em;
-    text-align: center
+  font-family: 'Courgette', sans-serif !important;
+  font-size: 1.9em;
+  text-align: center;
 }
 
 .article_body {
-    max-width: 90vh;
-    display: block;
-    margin: 0 auto;
+  max-width: 90vh;
+  display: block;
+  margin: 0 auto;
 }
 
 .main_article {
-    display: block;
-    position: relative;
-    left: -5%;
-    margin-left: 30vh;
-    margin-right: 20vh;
-    display: inline-block;
+  display: block;
+  position: relative;
+  left: -5%;
+  margin-left: 30vh;
+  margin-right: 20vh;
+  display: inline-block;  
 }
 
-.list li{
-    display: inline-block;
+.list li {
+  display: inline-block;
 }
 
 .media_links {
-    float: right;
-    position: relative;
-    bottom:10vh
+  float: right;
+  position: relative;
+  bottom: 10vh;
 }
 
-.media_links a{
-    border-radius: 4px;
-    padding:4px
+.media_links a {
+  border-radius: 4px;
+  padding: 4px;
 }
 
-.main_text p{
-    text-align: justify;
-    font-size: 1.2em;
-    width: 580px;
+.main_text p {
+  text-align: justify;
+  font-size: 1.2em;
+  width: 580px;
 }
 
 .main_article:after {
-    clear: both;
+  clear: both;
 }
 
 .container_footer {
@@ -170,153 +171,153 @@ h2 {
 }
 
 .almost_footer {
-    display: block;
-    position: relative;
-    right: 10%;
-    left: 10%;
+  display: block;
+  position: relative;
+  right: 10%;
+  left: 10%;
 }
 
 .almost_footer1 {
-    margin-left: 10vh;
+  margin-left: 10vh;
 }
 .sub-container {
-    display: block;
-    width: 450px;
+  display: block;
+  width: 450px;
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .list li {
-    background-color: grey;
-    border-radius: 100%;
-    padding: 8px;
+  background-color: grey;
+  border-radius: 100%;
+  padding: 8px;
 }
 
 .list li:not(:last-child) {
-    margin-right: 1vh;
+  margin-right: 1vh;
 }
 
 .almost_footer {
-    border-top: 1px solid black;
-    border-bottom:  1px solid black;
-    padding-top: 1.5vh;
-    padding-bottom: 10vh;
-    margin-bottom: 6vh;
-    float: left;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 1.5vh;
+  padding-bottom: 10vh;
+  margin-bottom: 6vh;
+  float: left;
 }
 
 .almost_footer button {
-    background-color: #6288a5;
-    color: white;
+  background-color: #6288a5;
+  color: white;
 }
 
 .almost_footer1 {
-    float: left;
-    width: 45%; 
+  float: left;
+  width: 45%; 
 }
 
 .almost_footer1 h6 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .almost_footer1 p {
-    font-size: 1em;
-    color: rgb(102, 102, 102);
-    font-weight: thin;
+  font-size: 1em;
+  color: rgb(102, 102, 102);
+  font-weight: thin;
 }
 
 .almost_footer2 {
-    float: right;
-    padding-top: 5vh;
-    width: 45%;
+  float: right;
+  padding-top: 5vh;
+  width: 45%;
 }
 
 #email_butt {
-    background-color: #6288a5;
-    margin-left: 0px;
-    border-left: 0px;
-    border-radius: 0px;
+  background-color: #6288a5;
+  margin-left: 0px;
+  border-left: 0px;
+  border-radius: 0px;
 }
 
 .email_form {
-    z-index: 1;
-    width: 100%;
-    height: auto;
+  z-index: 1;
+  width: 100%;
+  height: auto;
 }
 
 .footer ul li {
-    border-top: 1px solid #dedede;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    margin: 2px auto;
-    font-family: serif;
-    font-weight: bold;
-    font-size: 1em;
+  border-top: 1px solid #dedede;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 2px auto;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 .footer ul li a:hover {
-    color: #a8a8a8;
-    text-decoration: none;
+  color: #a8a8a8;
+  text-decoration: none;
 }
 
 .news span {
-    font-size: 0.7em;
-    color: #a8a8a8;
+  font-size: 0.7em;
+  color: #a8a8a8;
 }
 
 .editor_picks {
-    border-top: 1px solid black;
-    padding-top: 4vh;
+  border-top: 1px solid black;
+  padding-top: 4vh;
 }
 
 .top_footer {
-    border-top: 4px double grey;
+  border-top: 4px double grey;
 }
 
 /* footer */
 
 .footer_container {
-    margin-top: 5vh;
-    display: block;
-    position: relative;
-    left: 10%;
-    right: 10%;
+  margin-top: 5vh;
+  display: block;
+  position: relative;
+  left: 10%;
+  right: 10%;
 }
 
-.footer_container ul{
-    float: left;
-    margin-top: 5vh;
-    margin-right: 3vh;
+.footer_container ul {
+  float: left;
+  margin-top: 5vh;
+  margin-right: 3vh;
 }
 
-.footer_container ul:not(:last-child){
-    margin-right: 5vh;
+.footer_container ul:not(:last-child) { 
+  margin-right: 5vh;
 }
 
 .footer_container li {
-    font-size: 0.8em;
-    margin-top: 1vh;
+  font-size: 0.8em;
+  margin-top: 1vh;
 }
 
 .footer_container .second {
-    float: right;
-    font-size: 0.7em;
-    color: rgb(98, 136, 165);
+  float: right;
+  font-size: 0.7em;
+  color: rgb(98, 136, 165);
 }
 
 .footer_container .second a {
-    color: rgb(98, 136, 165);
+  color: rgb(98, 136, 165);
 }
 
 .title {
-    font-weight: bold;
-    text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .age {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .big {
@@ -325,59 +326,59 @@ h2 {
 
 /* theory of inflation */
 
-.theory-of-inflation  {
-    width: 100%;
+.theory-of-inflation {
+  width: 100%;
 }
 
 .theory-of-inflation ul {
-    width: 100%;
+  width: 100%;
 }
 
 .theory-of-inflation p {
-    font-family: sans-serif !important;
-    font-size: 0.8em;
+  font-family: sans-serif !important;
+  font-size: 0.8em;
 }
 
 .theory-of-inflation span {
-    text-transform: uppercase;
-    font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .article-continue {
-    display: block;
-    margin: 0 auto;
-    width: 580px;
+  display: block;
+  margin: 0 auto;
+  width: 580px;
 }
 
 .article-continue p {
-    font-family: serif !important;
-    font-size: 1.2em;
-    text-align: justify;
+  font-family: serif !important;
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 .article-continue h5 {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 .article-continue button {
-    padding-right: 10vh;
-    padding-left: 10vh;
-    font-size: 0.8em;
-    border: #175aa6 1px solid;
-    margin-bottom: 5vh;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  font-size: 0.8em;
+  border: #175aa6 1px solid;
+  margin-bottom: 5vh;
 }
 
 aside {
-    font-family: serif;
+  font-family: serif;
 }
 
 aside ul li {
-    border-top: 1px solid #b0b0b0;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-    font-weight: bold;
+  border-top: 1px solid #b0b0b0;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  font-weight: bold;
 }
 
 .container_footer h6 {
-    font-family: serif;
+  font-family: serif;
 }
