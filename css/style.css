@@ -110,17 +110,17 @@ nav {
 }
 
 .main_div {
-  display: block;
   clear: both;
+  display: block;
   margin-left: 15vh;
   width: 90%;
   
 }
 
 h2 {
-  font-size: 1.9em;
+  font-family: 'Courgette', sans-serif;
+  font-size: 1.9em; 
   text-align: center;
-  font-family: 'Courgette', sans-serif !important;
 }
 
 .article_body {
@@ -130,7 +130,6 @@ h2 {
 }
 
 .main_article {
-  display: inline-block;  
   left: -5%;
   margin-left: 30vh;
   margin-right: 20vh;
@@ -155,8 +154,9 @@ h2 {
 
 .main_text p {
   font-size: 1.2em;
-  width: 580px;
   text-align: justify;
+  width: 580px;
+  
 }
 
 .main_article:after {
@@ -164,19 +164,20 @@ h2 {
 }
 
 .container_footer {
+  clear: both;
   display: block;
   left: 10%;
   position: relative;
   right: 10%;
   width: 100%;
-  clear: both;
+  
 }
 
 .almost_footer {
+  display: block;
   left: 10%;
   position: relative;
-  right: 10%;
-  display: block;
+  right: 10%;  
 }
 
 .almost_footer1 {
@@ -221,27 +222,15 @@ h2 {
   width: 45%; 
 }
 
-.almost_footer1 h6 {
-  font-weight: bold;
-}
-
 .almost_footer1 p {
   color: rgb(102, 102, 102);
   font-size: 1em;
-  font-weight: thin;
-}
+  }
 
 .almost_footer2 {
-  padding-top: 5vh;
   float: right;
+  padding-top: 5vh;
   width: 45%;
-}
-
-#email_butt {
-  background-color: #6288a5;
-  border-left: 0px;
-  border-radius: 0px;
-  margin-left: 0px;
 }
 
 .email_form {
