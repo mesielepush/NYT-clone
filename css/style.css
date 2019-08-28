@@ -105,7 +105,7 @@ nav {
   
 }
 
-#b_one {
+.b_one {
   margin-right: 2vh;
 }
 
@@ -130,11 +130,12 @@ h2 {
 }
 
 .main_article {
+  display: block;
   left: -5%;
   margin-left: 30vh;
   margin-right: 20vh;
   position: relative;
-  display: block;
+  
 }
 
 .list li {
@@ -143,8 +144,9 @@ h2 {
 
 .media_links {
   bottom: 10vh;
-  position: relative;
   float: right;
+  position: relative;
+  
 }
 
 .media_links a {
@@ -327,7 +329,7 @@ h2 {
 }
 
 .theory-of-inflation p {
-  font-family: sans-serif !important;
+  font-family: sans-serif;
   font-size: 0.8em;
 }
 
@@ -344,21 +346,18 @@ h2 {
 }
 
 .article-continue p {
-  font-family: serif !important;
+  font-family: serif;
   font-size: 1.2em;
   text-align: justify;
 }
 
-.article-continue h5 {
-  font-size: 0.7em;
-}
-
 .article-continue button {
   border: #175aa6 1px solid;
-  padding-right: 10vh;
-  padding-left: 10vh;
   font-size: 0.8em;
   margin-bottom: 5vh;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  
 }
 
 aside {
@@ -367,14 +366,12 @@ aside {
 
 aside ul li {
   border-top: 1px solid #b0b0b0;
+  font-weight: bold;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
-  font-weight: bold;
+  
 }
 
-.container_footer h6 {
-  font-family: serif;
-}
 footer {
   border-top: 1px solid #a8a8a8;
   clear: both;
