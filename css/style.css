@@ -282,8 +282,8 @@ h2 {
 
 .footer_container ul {
   float: left;
-  margin-top: 5vh;
   margin-right: 3vh;
+  margin-top: 5vh;
 }
 
 .footer_container ul:not(:last-child) { 
@@ -355,8 +355,8 @@ h2 {
   border: #175aa6 1px solid;
   font-size: 0.8em;
   margin-bottom: 5vh;
-  padding-right: 10vh;
   padding-left: 10vh;
+  padding-right: 10vh;
   
 }
 
@@ -367,8 +367,8 @@ aside {
 aside ul li {
   border-top: 1px solid #b0b0b0;
   font-weight: bold;
-  padding-top: 1.5vh;
   padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
   
 }
 
