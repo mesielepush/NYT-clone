@@ -97,9 +97,10 @@ nav {
   font-size: 0.4em;
   font-weight: 500;
   justify-content: space-between;
+  margin: 0;
   padding: 8px;
   text-transform: uppercase;
-  margin: 0;
+  
 }
 
 #b_one {
@@ -108,9 +109,10 @@ nav {
 
 .main_div {
   display: block;
+  clear: both;
   margin-left: 15vh;
   width: 90%;
-  clear: both;
+  
 }
 
 h2 {
@@ -280,10 +282,10 @@ h2 {
 .footer_container {
   display: block;
   left: 10%;
+  margin-top: 5vh;
   position: relative;
   right: 10%;
-  margin-top: 5vh;
-}
+  }
 
 .footer_container ul {
   float: left;
@@ -339,8 +341,9 @@ h2 {
 }
 
 .theory-of-inflation span {
-  text-transform: uppercase;
   font-weight: bold;
+  text-transform: uppercase;
+  
 }
 
 .article-continue {
@@ -360,10 +363,10 @@ h2 {
 }
 
 .article-continue button {
+  border: #175aa6 1px solid;
   padding-right: 10vh;
   padding-left: 10vh;
   font-size: 0.8em;
-  border: #175aa6 1px solid;
   margin-bottom: 5vh;
 }
 
@@ -382,15 +385,14 @@ aside ul li {
   font-family: serif;
 }
 footer {
-    border-top: 1px solid #a8a8a8;
-    padding-top: 2.5vh;
-    clear: both;
-    width: 100%;
-    margin-left: 20vh;
-    font-size: 0.65em;
-    
+  border-top: 1px solid #a8a8a8;
+  clear: both;
+  margin-left: 20vh;
+  padding-top: 2.5vh;
+  width: 100%;   
 }
+
 footer span {
-    margin-right:2vh;
     color:grey;
+    margin-right:2vh;
 }
