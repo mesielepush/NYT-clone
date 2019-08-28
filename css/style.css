@@ -1,3 +1,4 @@
+
 body {
   background-color:white;
   font-family: "Roboto", sans-serif;
@@ -373,14 +374,19 @@ aside ul li {
 }
 
 footer {
+  
   border-top: 1px solid #a8a8a8;
   clear: both;
   margin-left: 20vh;
   padding-top: 2.5vh;
-  width: 100%;   
-}
+  position: sticky;
+  width: 97%;
+  }
 
 footer span {
     color:grey;
     margin-right:2vh;
+}
+footer span a {
+  font-size: 0.65em;
 }
