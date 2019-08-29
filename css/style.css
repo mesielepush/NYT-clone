@@ -167,15 +167,25 @@ h2 {
 }
 
 .container_footer {
+  border:2px solid red;
   clear: both;
-  display: block;
+  display: inline-block;
   left: 10%;
   position: relative;
   right: 10%;
   width: 100%;
-  
 }
-
+.no_bootstrap {
+  border: 2px solid blue;
+  float: left;
+  width: 60%;
+}
+.small_col {
+  width: 20%;
+}
+.medium_4 {
+  float:right;
+}
 .almost_footer {
   display: block;
   left: 10%;
