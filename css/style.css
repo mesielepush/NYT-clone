@@ -1,6 +1,6 @@
 
 body {
-  background-color:white;
+  background-color: white;
   font-family: "Roboto", sans-serif;
   margin: 0;
   width: 80%;
@@ -23,17 +23,17 @@ ul {
 }
 
 a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color:black; 
+  color:black;
   text-decoration: none;
 }
 
 a:hover {
-  color:black; 
+  color:black;
   text-decoration: none;
 }
 
@@ -116,7 +116,7 @@ nav {
 
 h2 {
   font-family: 'Courgette', sans-serif;
-  font-size: 1.9em; 
+  font-size: 1.9em;
   text-align: center;
 }
 
@@ -155,7 +155,7 @@ h2 {
   width: 580px;
 }
 
-.main_article:after {
+.main_article::after {
   clear: both;
 }
 
@@ -174,12 +174,12 @@ h2 {
   width: 70%;
 }
 
-.first_line  {
+.first_line {
   width: 100%;
   float: left;
 }
 
-.sec_line  {
+.sec_line {
   width: 100%;
   float: left;
 }
@@ -221,6 +221,26 @@ h2 {
 .sub-container {
   display: block;
   width: 450px;
+}
+
+.footer ul li {
+  border-top: 1px solid #dedede;
+  font-family: serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2px auto;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.footer ul li a:hover {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+.footer_container li {
+  font-size: 0.8em;
+  margin-top: 1vh;
 }
 
 .list {
@@ -273,21 +293,6 @@ h2 {
   z-index: 1;
 }
 
-.footer ul li {
-  border-top: 1px solid #dedede;
-  font-family: serif;
-  font-size: 1em;
-  font-weight: bold;
-  margin: 2px auto;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
-}
-
-.footer ul li a:hover {
-  color: #a8a8a8;
-  text-decoration: none;
-}
-
 .news span {
   color: #a8a8a8;
   font-size: 0.7em;
@@ -316,13 +321,8 @@ h2 {
   margin-top: 5vh;
 }
 
-.footer_container ul:not(:last-child) { 
+.footer_container ul:not(:last-child) {
   margin-right: 5vh;
-}
-
-.footer_container li {
-  font-size: 0.8em;
-  margin-top: 1vh;
 }
 
 .footer_container .second {
@@ -345,7 +345,7 @@ h2 {
 }
 
 .big {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 /* theory of inflation */
@@ -353,6 +353,7 @@ h2 {
 .solo_img {
   width: 100%;
 }
+
 .solo_capture {
   font-size: 0.7em;
 }
@@ -438,10 +439,13 @@ footer {
   width: 97%;
 }
 
-footer span {
-    color:grey;
-    margin-right:2vh;
-}
 footer span a {
   font-size: 0.65em;
 }
+
+footer span {
+    color: grey;
+    margin-right: 2vh;
+}
+
+
