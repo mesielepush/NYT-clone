@@ -147,6 +147,9 @@ h2 {
 
 .list li {
   display: inline-block;
+  background-color: grey;
+  border-radius: 100%;
+  padding: 8px;
 }
 
 .media_links {
@@ -240,10 +243,8 @@ h2 {
   padding-top: 2vh;
 }
 
-.list li {
-  background-color: grey;
-  border-radius: 100%;
-  padding: 8px;
+.footer_container .second a {
+  color: rgb(98, 136, 165);
 }
 
 .footer ul li a:hover {
@@ -253,12 +254,6 @@ h2 {
 
 .list {
   list-style-type: none;
-}
-
-.list li {
-  background-color: grey;
-  border-radius: 100%;
-  padding: 8px;
 }
 
 .theory-of-inflation ul li {
@@ -339,6 +334,11 @@ footer span {
   margin-top: 5vh;
 }
 
+.theory-of-inflation ul {
+  width: 100%;
+  float: left;
+}
+
 .footer_container ul:not(:last-child) {
   margin-right: 5vh;
 }
@@ -347,10 +347,6 @@ footer span {
   color: rgb(98, 136, 165);
   float: right;
   font-size: 0.7em;
-}
-
-.footer_container .second a {
-  color: rgb(98, 136, 165);
 }
 
 .title {
@@ -378,11 +374,6 @@ footer span {
 
 .theory-of-inflation {
   width: 100%;
-}
-
-.theory-of-inflation ul {
-  width: 100%;
-  float: left;
 }
 
 .wrapper-1 {
