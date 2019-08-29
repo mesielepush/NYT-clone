@@ -167,7 +167,6 @@ h2 {
 }
 
 .container_footer {
-  border:2px solid red;
   clear: both;
   display: inline-block;
   left: 10%;
@@ -175,17 +174,48 @@ h2 {
   right: 10%;
   width: 100%;
 }
+
 .no_bootstrap {
-  border: 2px solid blue;
   float: left;
-  width: 60%;
+  width: 70%;
+  margin-right: 5vh;
 }
+
+.first_line  {
+  width: 100%;
+  float: left;
+}
+
+.sec_line  {
+  width: 100%;
+  float: left;
+}
+
 .small_col {
-  width: 20%;
+  float: left;
+  width: 33.33%;
 }
+
 .medium_4 {
-  float:right;
+  width: 25%;
+  float: right;
+  margin-bottom: 3vh;
 }
+
+.medium_4 h6 {
+  font-size: 0.7em;
+}
+
+.medium_4 img {
+  width: 50%;
+}
+
+.small_col {
+  width: 33.33%;
+}
+
+
+
 .almost_footer {
   display: block;
   left: 10%;
@@ -284,12 +314,10 @@ h2 {
 /* footer */
 
 .footer_container {
+  clear: both;
   display: block;
-  left: 10%;
   margin-top: 5vh;
-  position: relative;
-  right: 10%;
-  }
+}
 
 .footer_container ul {
   float: left;
@@ -337,6 +365,25 @@ h2 {
 
 .theory-of-inflation ul {
   width: 100%;
+  float: left;
+}
+
+.wrapper-1 {
+  float: left;
+}
+
+.wrapper-2 {
+  float: left;
+}
+
+.theory-of-inflation ul li {
+  width: 22%;
+  float: left;
+  padding: 1.5vh;
+}
+
+.theory-of-inflation ul li img {
+  width: 100%;
 }
 
 .theory-of-inflation p {
@@ -380,18 +427,16 @@ aside ul li {
   font-weight: bold;
   padding-bottom: 1.5vh;
   padding-top: 1.5vh;
-  
 }
 
 footer {
-  
   border-top: 1px solid #a8a8a8;
   clear: both;
   margin-left: 20vh;
   padding-top: 2.5vh;
   position: fixed;
   width: 97%;
-  }
+}
 
 footer span {
     color:grey;
