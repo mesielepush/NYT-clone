@@ -177,8 +177,9 @@ h2 {
 
 .no_bootstrap {
   float: left;
-  width: 70%;
   margin-right: 5vh;
+  width: 70%;
+  
 }
 
 .first_line  {
@@ -359,6 +360,13 @@ h2 {
 
 /* theory of inflation */
 
+.solo_img {
+  width: 100%;
+}
+.solo_capture {
+  font-size: 0.7em
+}
+
 .theory-of-inflation {
   width: 100%;
 }
@@ -417,7 +425,9 @@ h2 {
   padding-right: 10vh;
   
 }
-
+.news img {
+  width: 100%
+}
 aside {
   font-family: serif;
 }
