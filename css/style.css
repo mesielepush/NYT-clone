@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+footer span a {
+  font-size: 0.65em;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -87,6 +91,13 @@ nav {
   margin: 0;
 }
 
+aside ul li {
+  border-top: 1px solid #b0b0b0;
+  font-weight: bold;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
+}
+
 .sub_button li {
   float: left;
 }
@@ -136,6 +147,9 @@ h2 {
 
 .list li {
   display: inline-block;
+  background-color: grey;
+  border-radius: 100%;
+  padding: 8px;
 }
 
 .media_links {
@@ -184,11 +198,6 @@ h2 {
   float: left;
 }
 
-.small_col {
-  float: left;
-  width: 33.33%;
-}
-
 .medium_4 {
   width: 25%;
   float: right;
@@ -205,22 +214,23 @@ h2 {
 
 .small_col {
   width: 33.33%;
-}
-
-.almost_footer {
-  display: block;
-  left: 10%;
-  position: relative;
-  right: 10%;
+  float: left;
 }
 
 .almost_footer1 {
   margin-left: 10vh;
+  float: left;
+  width: 45%;
 }
 
 .sub-container {
   display: block;
   width: 450px;
+}
+
+.footer_container li {
+  font-size: 0.8em;
+  margin-top: 1vh;
 }
 
 .footer ul li {
@@ -233,9 +243,8 @@ h2 {
   padding-top: 2vh;
 }
 
-.footer_container li {
-  font-size: 0.8em;
-  margin-top: 1vh;
+.footer_container .second a {
+  color: rgb(98, 136, 165);
 }
 
 .footer ul li a:hover {
@@ -243,16 +252,14 @@ h2 {
   text-decoration: none;
 }
 
-
-
 .list {
   list-style-type: none;
 }
 
-.list li {
-  background-color: grey;
-  border-radius: 100%;
-  padding: 8px;
+.theory-of-inflation ul li {
+  width: 22%;
+  float: left;
+  padding: 1.5vh;
 }
 
 .list li:not(:last-child) {
@@ -266,16 +273,15 @@ h2 {
   margin-bottom: 6vh;
   padding-bottom: 10vh;
   padding-top: 1.5vh;
+  display: block;
+  left: 10%;
+  position: relative;
+  right: 10%;
 }
 
 .almost_footer button {
   background-color: #6288a5;
   color: white;
-}
-
-.almost_footer1 {
-  float: left;
-  width: 45%;
 }
 
 .almost_footer1 p {
@@ -293,6 +299,11 @@ h2 {
   height: auto;
   width: 100%;
   z-index: 1;
+}
+
+footer span {
+  color: grey;
+  margin-right: 2vh;
 }
 
 .news span {
@@ -323,6 +334,11 @@ h2 {
   margin-top: 5vh;
 }
 
+.theory-of-inflation ul {
+  width: 100%;
+  float: left;
+}
+
 .footer_container ul:not(:last-child) {
   margin-right: 5vh;
 }
@@ -331,10 +347,6 @@ h2 {
   color: rgb(98, 136, 165);
   float: right;
   font-size: 0.7em;
-}
-
-.footer_container .second a {
-  color: rgb(98, 136, 165);
 }
 
 .title {
@@ -364,11 +376,6 @@ h2 {
   width: 100%;
 }
 
-.theory-of-inflation ul {
-  width: 100%;
-  float: left;
-}
-
 .wrapper-1 {
   float: left;
 }
@@ -377,10 +384,8 @@ h2 {
   float: left;
 }
 
-.theory-of-inflation ul li {
-  width: 22%;
-  float: left;
-  padding: 1.5vh;
+.news img {
+  width: 100%;
 }
 
 .theory-of-inflation ul li img {
@@ -417,19 +422,8 @@ h2 {
   padding-right: 10vh;
 }
 
-.news img {
-  width: 100%;
-}
-
 aside {
   font-family: serif;
-}
-
-aside ul li {
-  border-top: 1px solid #b0b0b0;
-  font-weight: bold;
-  padding-bottom: 1.5vh;
-  padding-top: 1.5vh;
 }
 
 footer {
@@ -439,13 +433,4 @@ footer {
   padding-top: 2.5vh;
   position: fixed;
   width: 97%;
-}
-
-footer span a {
-  font-size: 0.65em;
-}
-
-footer span {
-  color: grey;
-  margin-right: 2vh;
 }
