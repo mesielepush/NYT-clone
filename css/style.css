@@ -306,6 +306,10 @@ footer span {
   margin-right: 2vh;
 }
 
+.news {
+  padding-right: 3vh;
+}
+
 .news span {
   color: #a8a8a8;
   font-size: 0.7em;
